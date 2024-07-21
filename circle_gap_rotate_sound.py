@@ -6,7 +6,7 @@ import math
 pygame.init()
 
 # Screen dimensions
-width, height = 800, 600
+width, height = 400, 600
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Ball Chaos Simulation")
 
@@ -16,7 +16,7 @@ escape_sound = pygame.mixer.Sound('sounds/escape.wav')
 
 # Circle properties
 circle_center = (width // 2, height // 2)
-circle_radius = 200
+circle_radius = 190
 gap_angle_start = 45  # degrees
 gap_angle_end = 75  # degrees
 
