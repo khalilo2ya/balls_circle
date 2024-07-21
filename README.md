@@ -1,6 +1,4 @@
-Here's the updated `README.md` file for your project, including instructions for capturing an image:
 
-```markdown
 # Ball Chaos Simulation
 
 This project is a ball simulation game using Pygame, where balls bounce within a rotating circular boundary with a gap. Balls can escape through the gap, and new balls are generated upon escape.
