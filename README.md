@@ -17,8 +17,8 @@ This project is a ball simulation game using Pygame, where balls bounce within a
 
 1. **Clone the repository:**
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/khalilo2ya/balls_circle
+    cd balls_circle
     ```
 
 2. **Install dependencies:**
@@ -36,7 +36,7 @@ This project is a ball simulation game using Pygame, where balls bounce within a
 
 1. **Run the script:**
     ```sh
-    python ball_simulation.py
+    python circle_gap_rotate_sound.py
     ```
 
 2. **Control the simulation:**
