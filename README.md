@@ -3,7 +3,7 @@
 
 This project is a ball simulation game using Pygame, where balls bounce within a rotating circular boundary with a gap. Balls can escape through the gap, and new balls are generated upon escape.
 
-![Simulation Capture](capture.jpg)
+![Simulation Capture](captures/capture.jpg)
 
 ## Features
 
@@ -73,33 +73,3 @@ The main loop handles:
 - Checking for collisions
 - Displaying the ball count
 
-## License
-
-This project is licensed under the MIT License.
-```
-
-### Modifications to `ball_simulation.py` for Image Capture
-
-To capture an image of the simulation screen, you can add the following line inside the main loop before the `pygame.display.flip()` call:
-
-```python
-# Capture the screen and save as image
-pygame.image.save(screen, "capture.jpg")
-```
-
-Here is the modified section of the main loop with the capture code added:
-
-```python
-    # Display ball count
-    font = pygame.font.Font(None, 36)
-    text = font.render(f"Balls: {len(balls)}", True, (255, 255, 255))
-    screen.blit(text, (10, 10))
-
-    # Capture the screen and save as image
-    pygame.image.save(screen, "capture.jpg")
-
-    pygame.display.flip()
-    pygame.time.delay(30)
-```
-
-This will save a screenshot of the simulation as `capture.jpg` in the current directory.
